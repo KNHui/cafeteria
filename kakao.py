@@ -11,10 +11,10 @@ from flask import Flask, request, make_response, render_template
 
 app = Flask(__name__)
 
-slack_token = 'xoxp-503049869125-504578722048-506894891009-770061cc169180c2533b15c7eef6e25a'
-slack_client_id = '503049869125.506759767824'
-slack_client_secret = 'fd7718b16d6eeb80abc281a2e1bb3db8'
-slack_verification = '2q4ynAigKVeeiqrFjLLfXlvD'
+slack_token = ''
+slack_client_id = ''
+slack_client_secret = ''
+slack_verification = ''
 sc = SlackClient(slack_token)
 # kredit job
 
